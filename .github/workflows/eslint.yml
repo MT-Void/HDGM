@@ -3,14 +3,12 @@ name: ESLint
 on:
   pull_request:
     branches: ["main"]
-  schedule:
-    - cron: "32 4 * * 2"
 
 env:
-  NODE_VERSION: 20
+  NODE_VERSION: 16
 
 jobs:
-  build:
+  eslint:
     runs-on: ubuntu-latest
     steps:
       - name: Install NodeJS
