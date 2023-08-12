@@ -1,480 +1,740 @@
 <!doctype html>
 
 <html lang="fa-IR">
+  <head>
+    <title>HDGM</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/global.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <title>HDGM</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="css/global.css" rel="stylesheet" />
-</head>
-
-<body>
-  <header class="header-site">
-    <div class="bg-back-head">
-      <div class="bg-left-back"></div>
-      <div class="bg-right-back"></div>
-    </div>
-    <div class="container">
-      <div class="rowflex">
-        <div class="left-side">
-          <div class="logo-head">
-            <a title="دیجی موویز" href="https://digimovie6.pro">
-              <img src="assets/images/DGlogo.webp" alt="logo" title="دیجی موویز" />
+  <body>
+    <header class="header-site">
+      <div class="bg-back-head">
+        <div class="bg-left-back"></div>
+        <div class="bg-right-back"></div>
+      </div>
+      <div class="container">
+        <div class="rowflex">
+          <div class="left-side">
+            <div class="logo-head">
+              <a title="دیجی موویز" href="https://digimovie6.pro">
+                <img
+                  src="assets/images/DGlogo.webp"
+                  alt="logo"
+                  title="دیجی موویز"
+                />
+              </a>
+            </div>
+            <div class="btns-change-mode" data-mode="">
+              <svg class="icon icon-moon"></svg>
+              <svg class="icon icon-sun"></svg>
+              <div class="ball"></div>
+            </div>
+          </div>
+          <div class="user-nav">
+            <a class="header-btn register-btn" href="#">
+              <svg class="icon icon-add-user"></svg>
+              ثبت نام
+            </a>
+            <a class="header-btn login-btn" href="#">
+              <svg class="icon icon-sign-in"></svg>
+              وارد شوید
             </a>
           </div>
-          <div class="btns-change-mode" data-mode="">
-            <svg class="icon icon-moon"></svg>
-            <svg class="icon icon-sun"></svg>
-            <div class="ball"></div>
-          </div>
-        </div>
-        <div class="user-nav">
-          <a class="header-btn register-btn" href="#">
-            <svg class="icon icon-add-user"></svg>
-            ثبت نام
-          </a>
-          <a class="header-btn login-btn" href="#">
-            <svg class="icon icon-sign-in"></svg>
-            وارد شوید
-          </a>
-        </div>
-        <div class="top-menu">
-          <div class="container">
-            <div class="rowflex">
-              <div class="menu-right-header">
-                <ul class="top-header-menu">
-                  <li>
-                    <a title="خانه" href="#"></a>
-                  </li>
-                  <li>
-                    <a title="دانلود فیلم" href="#">
-                      <div class="icon-holder">
-                        <svg class="icon icon-film-reel"></svg>
-                      </div>
-                      <div class="text-holder">
-                        <span>دانلود فیلم</span>
-                        <small>MOVIES</small>
-                      </div>
-                    </a>
-                    <ul class="topmenu-submenu">
-                      <li class="inner-submenu">
-                        <div class="right-menu-items">
-                          <nav class="submenu-container">
-                            <ul id="#" class="submenu">
-                              <li id="#" class="submenu-item">
-                                <a href="#">دانلود فیلم</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">فیلم های دارای پخش آنلاین</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">250 فیلم برتر تاریخ</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">دانلود انیمیشن</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">جدول باکس آفیس</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">فیلم های دوبله فارسی</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">فیلم های بزودی</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">سینمای هند</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">فیلم های 3 بعدی</a>
-                              </li>
-                            </ul>
-                          </nav>
+          <div class="top-menu">
+            <div class="container">
+              <div class="rowflex">
+                <div class="menu-right-header">
+                  <ul class="top-header-menu">
+                    <li>
+                      <a title="خانه" href="#"></a>
+                    </li>
+                    <li>
+                      <a title="دانلود فیلم" href="#">
+                        <div class="icon-holder">
+                          <svg class="icon icon-film-reel"></svg>
                         </div>
-                        <div class="menu-image-holder">
-                          <img src="" alt="movies-sub-menu" />
+                        <div class="text-holder">
+                          <span>دانلود فیلم</span>
+                          <small>MOVIES</small>
                         </div>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a title="دانلود سریال" href="#">
-                      <div class="icon-holder">
-                        <svg class="icon icon-tv"></svg>
-                      </div>
-                      <div class="text-holder">
-                        <span>دانلود سریال</span>
-                        <small>SERIES</small>
-                      </div>
-                    </a>
-                    <ul class="topmenu-submenu series-submenu">
-                      <li class="inner-submenu">
-                        <div class="right-menu-items">
-                          <nav class="submenu-container">
-                            <ul id="#" class="menu">
-                              <li id="#" class="submenu-item">
-                                <a href="#">دانلود سریال</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">سریال های دارای پخش آنلاین</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">250 سریال برتر تاریخ</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">برترین سریال های قرن 21</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">پربازدیدترین سریال ها</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">سریال کنسل شده</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">سریال های پایان یافته</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">سریال های دوبله فارسی</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">سریال های کره ای</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">سریال های انیمیشنی</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">مینی سریال</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">انیمه</a>
-                              </li>
-                            </ul>
-                          </nav>
+                      </a>
+                      <ul class="topmenu-submenu">
+                        <li class="inner-submenu">
+                          <div class="right-menu-items">
+                            <nav class="submenu-container">
+                              <ul id="#" class="submenu">
+                                <li id="#" class="submenu-item">
+                                  <a href="#">دانلود فیلم</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">فیلم های دارای پخش آنلاین</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">250 فیلم برتر تاریخ</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">دانلود انیمیشن</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">جدول باکس آفیس</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">فیلم های دوبله فارسی</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">فیلم های بزودی</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">سینمای هند</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">فیلم های 3 بعدی</a>
+                                </li>
+                              </ul>
+                            </nav>
+                          </div>
+                          <div class="menu-image-holder">
+                            <img src="" alt="movies-sub-menu" />
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a title="دانلود سریال" href="#">
+                        <div class="icon-holder">
+                          <svg class="icon icon-tv"></svg>
                         </div>
-                        <div class="menu-image-holder">
-                          <img src="" alt="series-sub-menu" />
+                        <div class="text-holder">
+                          <span>دانلود سریال</span>
+                          <small>SERIES</small>
                         </div>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a title="هنرمندان" href="#">
-                      <div class="icon-holder">
-                        <svg class="icon icon-theater"></svg>
-                      </div>
-                      <div class="text-holder">
-                        <span>هنرمندان</span>
-                        <small>َASTISTS</small>
-                      </div>
-                    </a>
-                    <ul class="topmenu-submenu casts-submenu">
-                      <li class="inner-submenu">
-                        <div class="right-menu-items">
-                          <nav class="submenu-container">
-                            <ul id="#" class="menu">
-                              <li id="#" class="submenu-item">
-                                <a href="#">برترین بازیگران مرد</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">برترین بازیگران زن</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">برترین کارگردانان</a>
-                              </li>
-                              <li id="#" class="submenu-item">
-                                <a href="#">اخبار سینما و هنرمندان</a>
-                              </li>
-                            </ul>
-                          </nav>
+                      </a>
+                      <ul class="topmenu-submenu series-submenu">
+                        <li class="inner-submenu">
+                          <div class="right-menu-items">
+                            <nav class="submenu-container">
+                              <ul id="#" class="menu">
+                                <li id="#" class="submenu-item">
+                                  <a href="#">دانلود سریال</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">سریال های دارای پخش آنلاین</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">250 سریال برتر تاریخ</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">برترین سریال های قرن 21</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">پربازدیدترین سریال ها</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">سریال کنسل شده</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">سریال های پایان یافته</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">سریال های دوبله فارسی</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">سریال های کره ای</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">سریال های انیمیشنی</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">مینی سریال</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">انیمه</a>
+                                </li>
+                              </ul>
+                            </nav>
+                          </div>
+                          <div class="menu-image-holder">
+                            <img src="" alt="series-sub-menu" />
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a title="هنرمندان" href="#">
+                        <div class="icon-holder">
+                          <svg class="icon icon-theater"></svg>
                         </div>
-                        <div class="menu-image-holder">
-                          <img src="" alt="castsubmenu" />
+                        <div class="text-holder">
+                          <span>هنرمندان</span>
+                          <small>َASTISTS</small>
                         </div>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a title="تماس با ما" href="#">
-                      <div class="icon-holder">
-                        <svg class="icon icon-headset"></svg>
-                      </div>
-                      <div class="text-holder">
-                        <span>تماس با ما</span>
-                        <small>CONTACT</small>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-                <div class="search-box">
-                  <from method="get" action="#" autocomplete="off">
-                    <input class="str-seatch-ajax" type="text" name="s" placeholder="جستوجو کنید... " />
-                    <button type="submit">
-                      <svg class="icon icon-search"></svg>
-                    </button>
-                  </from>
+                      </a>
+                      <ul class="topmenu-submenu casts-submenu">
+                        <li class="inner-submenu">
+                          <div class="right-menu-items">
+                            <nav class="submenu-container">
+                              <ul id="#" class="menu">
+                                <li id="#" class="submenu-item">
+                                  <a href="#">برترین بازیگران مرد</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">برترین بازیگران زن</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">برترین کارگردانان</a>
+                                </li>
+                                <li id="#" class="submenu-item">
+                                  <a href="#">اخبار سینما و هنرمندان</a>
+                                </li>
+                              </ul>
+                            </nav>
+                          </div>
+                          <div class="menu-image-holder">
+                            <img src="" alt="castsubmenu" />
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a title="تماس با ما" href="#">
+                        <div class="icon-holder">
+                          <svg class="icon icon-headset"></svg>
+                        </div>
+                        <div class="text-holder">
+                          <span>تماس با ما</span>
+                          <small>CONTACT</small>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="search-box">
+                    <from method="get" action="#" autocomplete="off">
+                      <input
+                        class="str-seatch-ajax"
+                        type="text"
+                        name="s"
+                        placeholder="جستوجو کنید... "
+                      />
+                      <button type="submit">
+                        <svg class="icon icon-search"></svg>
+                      </button>
+                    </from>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
-  <div class="featured-slider">
-    <div class="container">
-      <div class="show-featured-btn">
-        <a title="فیلم های برگزیده" href="#">فیلم های برگزیده</a>
-      </div>
-      <div class="slider-container">
-        <button class="slick-prev">&lt</button>
-        <div class="slider-content-container">
-          <div class="slider-content">
-            <div class="slider-item">
-              <div class="slider-poster">
-                <a title="Movie Name" href="#">
-                  <img alt="inactive movie thumbnail" />
-                </a>
+    </header>
+    <div class="featured-slider">
+      <div class="container">
+        <div class="show-featured-btn">
+          <a title="فیلم های برگزیده" href="#">فیلم های برگزیده</a>
+        </div>
+        <div class="slider-container">
+          <button class="slick-prev">&lt</button>
+          <div class="slider-content-container">
+            <div class="slider-content">
+              <div class="slider-item">
+                <div class="slider-poster">
+                  <a title="Movie Name" href="#">
+                    <img alt="inactive movie thumbnail" />
+                  </a>
+                </div>
+                <div class="slider-poster-active">
+                  <a title="Movie Name" href="#">
+                    <div class="slider-quality">1080p</div>
+                    <img alt="active movie thumbnail" />
+                    <div class="slider-footer">
+                      <div>
+                        <div class="left">
+                          <div class="imdb-rating">
+                            <span><strong>10</strong><small>/10</small></span>
+                          </div>
+                          <h2>Movie Name</h2>
+                        </div>
+                        <div class="right"></div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
-              <div class="slider-poster-active">
-                <a title="Movie Name" href="#">
-                  <div class="slider-quality">1080p</div>
-                  <img alt="active movie thumbnail" />
-                  <div class="slider-footer">
+            </div>
+          </div>
+          <button class="slick-next">&gt</button>
+        </div>
+      </div>
+    </div>
+    <div class="advanced-search">
+      <div class="container">
+        <div class="inner-advanced-search">
+          <div class="title-advanced-search">
+            <svg class="icon icon-adv-search"></svg>
+            <span>جستوجو</span>
+            <strong>حرفه ای</strong>
+          </div>
+          <form class="field-holder-search" method="get" action="#">
+            <input
+              id="advanced-search"
+              type="hidden"
+              name="advanced-search"
+              value="on"
+            />
+            <div class="items-four">
+              <div class="item-search-field change-type">
+                <div class="label-search">نوع</div>
+                <div class="toggle-type">
+                  <div class="item-toggle-type" data-posttype="post">فیلم</div>
+                  <div class="item-toggle-type" data-posttype="series">
+                    سریال
+                  </div>
+                  <input type="hidden" name="adv-post-type" value="" />
+                </div>
+              </div>
+              <div class="item-search-field">
+                <label for="avg-director">کارگردان</label>
+                <input
+                  id="avg-director"
+                  type="text"
+                  name="avg-director"
+                  value=""
+                  placeholder="Christopher Nolan"
+                />
+              </div>
+              <div class="item-search-field">
+                <label for="adv-cast">بازیگران</label>
+                <input
+                  id="adv-cast"
+                  type="text"
+                  name="adv-cast"
+                  value=""
+                  placeholder="leonardon dicaprio"
+                />
+              </div>
+              <div class="item-search-field search-release">
+                <div class="release-item-search">
+                  <div class="label-search">سال ساخت</div>
+                  <div class="num-search">
+                    <span id="slider-range-value1" class="start-release"
+                      >1888</span
+                    >
+                    <span class="sep-release">-</span>
+                    <span id="slider-range-value2" class="end-release"
+                      >2023</span
+                    >
+                  </div>
+                  <input
+                    id="min-release"
+                    type="hidden"
+                    name="min-release"
+                    value="1888"
+                  />
+                  <input
+                    id="max-release"
+                    type="hidden"
+                    name="max-release"
+                    value="2023"
+                  />
+                </div>
+                <div class="slider-holder">
+                  <div
+                    id="slider-range"
+                    class="noUi-target noUi-rt1 noUi-horizontal noUi-txt-dir-rt1"
+                  >
+                    <div class="noUi-base">
+                      <div class="noUi-connects">
+                        <div
+                          class="noUi-connect"
+                          style="transform: translate(0%) scale(1)"
+                        ></div>
+                      </div>
+                      <div
+                        class="noUi-origin"
+                        style="transform: translate(1000%); z-index: 5"
+                      >
+                        <div
+                          class="noUi-handle noUi-handle-lower"
+                          data-handle="0"
+                          tabindex="0"
+                          role="slider"
+                          aria-orientation="horizontal"
+                          aria-valuemin="1888
+                        0"
+                          aria-valuemax="2023.0"
+                          aria-valuenow="1888.0"
+                          aria-valuetext="1888"
+                        >
+                          <div class="noUi-touch-area"></div>
+                        </div>
+                      </div>
+                      <div
+                        class="noUi-origin"
+                        style="transform: translate(0%); z-index: 4"
+                      >
+                        <div
+                          class="noUi-handle noUi-handle-upper"
+                          data-handle="1"
+                          tabindex="0"
+                          role="slider"
+                          aria-orientation="horizontal"
+                          aria-valuemin="1888
+                          0"
+                          aria-valuemax="2023.0"
+                          aria-valuenow="2023.0"
+                          aria-valuetext="2023"
+                        >
+                          <div class="noUi-touch-area"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="items-five">
+              <div class="item-search-field">
+                <label for="adv-country">کشور</label>
+                <select id="adv-country" name="adv-country">
+                  <option value="0">همه</option>
+                  <option value="Albenia">Albenia</option>
+                  <option value="Belarus">Belarus</option>
+                  <option value="Brunei">Brunei</option>
+                </select>
+              </div>
+              <div class="item-search-field">
+                <label for="adv-age">رده سنی</label>
+                <select id="adv-age" name="adv-age">
+                  <option value="0">همه</option>
+                  <option>PG-13</option>
+                  <option>TV-PG</option>
+                  <option>R</option>
+                  <option>P</option>
+                  <option>C16</option>
+                  <option>E10+</option>
+                  <option>C18</option>
+                  <option>TV-14</option>
+                  <option>PG</option>
+                </select>
+              </div>
+              <div class="item-search-field">
+                <label for="adv-genre">ژانر</label>
+                <select id="adv-genre" name="adv-genre">
+                  <option value="0">همه</option>
+                  <option value="film-noir">film-noir</option>
+                  <option value="reality-tv">reality-tv</option>
+                  <option value="Talk-show">Talk-show</option>
+                </select>
+              </div>
+              <div class="item-search-field search-rate">
+                <div class="rate-item-search">
+                  <div class="label-search">امتیاز</div>
+                  <div class="num-search">
+                    <span id="slider-range-rate1" class="start-rate">1.0</span>
+                    <span class="sep-release">-</span>
+                    <span id="slider-range-rate2" class="rate-release"
+                      >10.0</span
+                    >
+                  </div>
+                  <input
+                    id="min-rate"
+                    type="hidden"
+                    name="min-rate"
+                    value="1.0"
+                  />
+                  <input
+                    id="max-rate"
+                    type="hidden"
+                    name="max-rate"
+                    value="10.0"
+                  />
+                </div>
+                <div class="slider-holder">
+                  <div
+                    id="slider-range-rate"
+                    class="noUi-target noUi-rt1 noUi-horizontal noUi-txt-dir-rt1"
+                  >
+                    <div class="noUi-base">
+                      <div class="noUi-connects">
+                        <div
+                          class="noUi-connect"
+                          style="transform: translate(0%) scale(1)"
+                        ></div>
+                      </div>
+                      <div
+                        class="noUi-origin"
+                        style="transform: translate(1000%); z-index: 5"
+                      >
+                        <div
+                          class="noUi-handle noUi-handle-lower"
+                          data-handle="0"
+                          tabindex="0"
+                          role="slider"
+                          aria-orientation="horizontal"
+                          aria-valuemin="1.0"
+                          aria-valuemax="10.0"
+                          aria-valuenow="1.0"
+                          aria-valuetext="1.0"
+                        >
+                          <div class="noUi-touch-area"></div>
+                        </div>
+                      </div>
+                      <div
+                        class="noUi-origin"
+                        style="transform: translate(0%); z-index: 4"
+                      >
+                        <div
+                          class="noUi-handle noUi-handle-upper"
+                          data-handle="1"
+                          tabindex="0"
+                          role="slider"
+                          aria-orientation="horizontal"
+                          aria-valuemin="1.0"
+                          aria-valuemax="10.0"
+                          aria-valuenow="10.0"
+                          aria-valuetext="10.0"
+                        >
+                          <div class="noUi-touch-area"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="items-five">
+              <div class="item-search-field">
+                <label for="adv-quality">کیفیت</label>
+                <select id="adv-quality" name="adv-quality">
+                  <option value="0">همه</option>
+                  <option value="2160p 4k 10bit Bluray x265 SoftSub">
+                    2160p 4k 10bit Bluray x265 SoftSub
+                  </option>
+                  <option value="1080 Full HD Bluray SoftSub">
+                    1080 Full HD Bluray SoftSub
+                  </option>
+                  <option value="720p Bluray HardSub">
+                    720p Bluray HardSub
+                  </option>
+                </select>
+              </div>
+              <div class="item-search-field">
+                <label for="adv-network">شبکه</label>
+                <select id="adv-network" name="adv-network">
+                  <option value="0">همه</option>
+                  <option value="AMC">AMC</option>
+                  <option value="Apple TV Plus">Apple TV Plus</option>
+                  <option value="ABC">ABC</option>
+                </select>
+              </div>
+              <div class="item-search-field">
+                <label for="adv-order">ترتیب</label>
+                <select id="adv-order" name="adv-order">
+                  <option value="publish-date">publish-date</option>
+                  <option value="imdb-rate">imdb-rate</option>
+                  <option value="vote-count">vote-count</option>
+                  <option value="critics-rate-movie">critics-rate-movie</option>
+                  <option value="comment-count">comment-count</option>
+                  <option value="post-views-count">post-views-count</option>
+                </select>
+              </div>
+              <div class="item-search-field"></div>
+            </div>
+            <div class="items-bottom">
+              <div class="item-search-bottom">
+                <div class="item-checkbox" data-valcheck="1">
+                  <div class="text-holder">دوبله فارسی</div>
+                  <div class="icon-holder">
+                    <svg class="icon icon-check"></svg>
+                  </div>
+                  <input
+                    id="adv-dubbed"
+                    class="hidden"
+                    type="checkbox"
+                    value="1"
+                    name="adv-dubbed"
+                  />
+                </div>
+                <div class="item-checkbox" data-valcheck="1">
+                  <div class="text-holder">سانسور شده</div>
+                  <div class="icon-holder">
+                    <svg class="icon icon-check"></svg>
+                  </div>
+                  <input
+                    id="adv-censorship"
+                    class="hidden"
+                    type="checkbox"
+                    value="1"
+                    name="adv-censorship"
+                  />
+                </div>
+                <div class="item-checkbox" data-valcheck="1">
+                  <div class="text-holder">زیرنویس</div>
+                  <div class="icon-holder">
+                    <svg class="icon icon-check"></svg>
+                  </div>
+                  <input
+                    id="adv-subtitle"
+                    class="hidden"
+                    type="checkbox"
+                    value="1"
+                    name="adv-subtitle"
+                  />
+                </div>
+                <div class="item-checkbox" data-valcheck="1">
+                  <div class="text-holder">پخش آنلاین</div>
+                  <div class="icon-holder">
+                    <svg class="icon icon-check"></svg>
+                  </div>
+                  <input
+                    id="adv-online"
+                    class="hidden"
+                    type="checkbox"
+                    value="1"
+                    name="adv-online"
+                  />
+                </div>
+              </div>
+              <div class="item-search-bottom">
+                <button type="submit">
+                  <svg class="icon icon-search"></svg>
+                  جستوجو
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="container">
+        <div class="main-container-content">
+          <div class="movie-card-container">
+            <div class="movie-card">
+              <div class="right-content">
+                <div class="cover">
+                  <a title="DOWNLOAD_MOVIE_MOTTO" href="#">
+                    <img
+                      src=""
+                      width="204px"
+                      height="300"
+                      alt="DOWNLOAD_MOVIE_MOTTO"
+                    />
+                  </a>
+                </div>
+                <div class="show-trailer-btn">
+                  <span class="icon-holder">
+                    <svg class="icon icon-clapperboard"></svg>
+                  </span>
+                  <span class="text-holder">مشاهده تریلر</span>
+                </div>
+              </div>
+              <div class="left-content">
+                <div class="top-section">
+                  <div class="left-side">
+                    <div class="favorite-btn">
+                      <svg class="icon icon-heart"></svg>
+                      <span>
+                        <svg class="icon icon-plus"></svg>
+                      </span>
+                    </div>
+                    <div class="imdb-rating-container">
+                      <div class="rating">
+                        <strong>10</strong><small>/10</small
+                        ><span>0 Votes</span>
+                      </div>
+                      <a
+                        class="imdb-rating-logo"
+                        href="#"
+                        rel="noopener noreferrer nofollow"
+                        target="_blank"
+                      >
+                        <svg class="icon icon-imdb-logo"></svg>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="right-side">
                     <div>
-                      <div class="left">
-                        <div class="imdb-rating">
-                          <span><strong>10</strong><small>/10</small></span>
-                        </div>
-                        <h2>Movie Name</h2>
-                      </div>
-                      <div class="right"></div>
+                      <h2 class="lato-font iran-yekan-reg">
+                        <a title="DOWNLOAD_MOVIE_MOTTO" href="#">دانلود فیلم</a>
+                      </h2>
                     </div>
                   </div>
-                </a>
+                </div>
+                <div class="middle-section">
+                  <ul>
+                    <li>
+                      <span class="icon-holder">
+                        <svg class="icon icon-quality-hd"></svg>
+                      </span>
+                      <span class="lab-item">کیفیت :</span>
+                      <span class="res-item iranYekanReg"> 1080p WEB-DL </span>
+                    </li>
+                    <li>
+                      <span class="icon-holder"
+                        ><svg class="icon icon-timer"></svg
+                      ></span>
+                      <span class="lab-item">زمان :</span>
+                      <span class="res-item">126 دقیقه</span>
+                    </li>
+                    <li>
+                      <span class="icon-holder"
+                        ><svg class="icon icon-folder"></svg
+                      ></span>
+                      <span class="lab-item">ژانر :</span>
+                      <span class="res-item"
+                        ><a href="#" rel="tag">اکشن</a> ,
+                        <a href="#" rel="tag">جنایی</a> ,
+                        <a href="#" rel="tag">هیجان انگیز</a></span
+                      >
+                    </li>
+                    <li>
+                      <span class="icon-holder"
+                        ><svg class="icon icon-actor"></svg
+                      ></span>
+                      <span class="lab-item">کارگردان :</span>
+                      <span class="res-item"
+                        ><a href="#" rel="tag">tom harper</a></span
+                      >
+                    </li>
+                    <li class="full">
+                      <span class="icon-holder"
+                        ><svg class="icon icon-mask"></svg
+                      ></span>
+                      <span class="lab-item">ستارگان :</span>
+                      <span class="res-item"
+                        ><a title="Jing Lusi" href="#">Jing Lusi</a>,<a
+                          title="jamie dornan"
+                          href="#"
+                          >jamie dornan</a
+                        >,<a title="paul ready" href="#">paul ready</a></span
+                      >
+                    </li>
+                    <li>
+                      <span class="icon-holder"
+                        ><svg class="icon icon-network"></svg
+                      ></span>
+                      <span class="lab-item">محصول کشور :</span>
+                      <span class="res-item"
+                        ><a href="#" rel="tag">آمریکا</a></span
+                      >
+                    </li>
+                  </ul>
+                  <div class="plot-text">توضیحات</div>
+                  <div class="more-meta-left">
+                    <div class="item-meta-more subtitles-item">
+                      <svg class="icon icon-subtitles"></svg>
+                      <div class="text-hover">همراه با زیرنویس چسبیده</div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <button class="slick-next">&gt</button>
       </div>
     </div>
-  </div>
-  <div class="advanced-search">
-    <div class="container">
-      <div class="inner-advanced-search">
-        <div class="title-advanced-search">
-          <svg class="icon icon_adv_search"></svg>
-          <span>جستوجو</span>
-          <strong>حرفه ای</strong>
-        </div>
-        <form class="field-holder-search" method="get" action="#">
-          <input id="advanced-search" type="hidden" name="advanced-search" value="on" />
-          <div class="items-four">
-            <div class="item-search-field change-type">
-              <div class="label-search">نوع</div>
-              <div class="toggle-type">
-                <div class="item-toggle-type" data-posttype="post">فیلم</div>
-                <div class="item-toggle-type" data-posttype="series">
-                  سریال
-                </div>
-                <input type="hidden" name="adv-post-type" value="" />
-              </div>
-            </div>
-            <div class="item-search-field">
-              <label for="avg-director">کارگردان</label>
-              <input id="avg-director" type="text" name="avg-director" value="" placeholder="Christopher Nolan" />
-            </div>
-            <div class="item-search-field">
-              <label for="adv-cast">بازیگران</label>
-              <input id="adv-cast" type="text" name="adv-cast" value="" placeholder="leonardon dicaprio" />
-            </div>
-            <div class="item-search-field search-release">
-              <div class="release-item-search">
-                <div class="label-search">سال ساخت</div>
-                <div class="num-search">
-                  <span id="slider-range-value1" class="start-release">1888</span>
-                  <span class="sep-release">-</span>
-                  <span id="slider-range-value2" class="end-release">2023</span>
-                </div>
-                <input id="min-release" type="hidden" name="min-release" value="1888" />
-                <input id="max-release" type="hidden" name="max-release" value="2023" />
-              </div>
-              <div class="slider-holder">
-                <div id="slider-range" class="noUi-target noUi-rt1 noUi-horizontal noUi-txt-dir-rt1">
-                  <div class="noUi-base">
-                    <div class="noUi-connects">
-                      <div class="noUi-connect" style="transform: translate(0%) scale(1)"></div>
-                    </div>
-                    <div class="noUi-origin" style="transform: translate(1000%); z-index: 5">
-                      <div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider"
-                        aria-orientation="horizontal" aria-valuemin="1888
-                        0" aria-valuemax="2023.0" aria-valuenow="1888.0" aria-valuetext="1888">
-                        <div class="noUi-touch-area"></div>
-                      </div>
-                    </div>
-                    <div class="noUi-origin" style="transform: translate(0%); z-index: 4">
-                      <div class="noUi-handle noUi-handle-upper" data-handle="1" tabindex="0" role="slider"
-                        aria-orientation="horizontal" aria-valuemin="1888
-                          0" aria-valuemax="2023.0" aria-valuenow="2023.0" aria-valuetext="2023">
-                        <div class="noUi-touch-area"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="items-five">
-            <div class="item-search-field">
-              <label for="adv-country">کشور</label>
-              <select id="adv-country" name="adv-country">
-                <option value="0">همه</option>
-                <option value="Albenia">Albenia</option>
-                <option value="Belarus">Belarus</option>
-                <option value="Brunei">Brunei</option>
-              </select>
-            </div>
-            <div class="item-search-field">
-              <label for="adv-age">رده سنی</label>
-              <select id="adv-age" name="adv-age">
-                <option value="0">همه</option>
-                <option>PG-13</option>
-                <option>TV-PG</option>
-                <option>R</option>
-                <option>P</option>
-                <option>C16</option>
-                <option>E10+</option>
-                <option>C18</option>
-                <option>TV-14</option>
-                <option>PG</option>
-              </select>
-            </div>
-            <div class="item-search-field">
-              <label for="adv-genre">ژانر</label>
-              <select id="adv-genre" name="adv-genre">
-                <option value="0">همه</option>
-                <option value="film-noir">film-noir</option>
-                <option value="reality-tv">reality-tv</option>
-                <option value="Talk-show">Talk-show</option>
-              </select>
-            </div>
-            <div class="item-search-field search-rate">
-              <div class="rate-item-search">
-                <div class="label-search">امتیاز</div>
-                <div class="num-search">
-                  <span id="slider-range-rate1" class="start-rate">1.0</span>
-                  <span class="sep-release">-</span>
-                  <span id="slider-range-rate2" class="rate-release">10.0</span>
-                </div>
-                <input id="min-rate" type="hidden" name="min-rate" value="1.0" />
-                <input id="max-rate" type="hidden" name="max-rate" value="10.0" />
-              </div>
-              <div class="slider-holder">
-                <div id="slider-range-rate" class="noUi-target noUi-rt1 noUi-horizontal noUi-txt-dir-rt1">
-                  <div class="noUi-base">
-                    <div class="noUi-connects">
-                      <div class="noUi-connect" style="transform: translate(0%) scale(1)"></div>
-                    </div>
-                    <div class="noUi-origin" style="transform: translate(1000%); z-index: 5">
-                      <div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider"
-                        aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="10.0" aria-valuenow="1.0"
-                        aria-valuetext="1.0">
-                        <div class="noUi-touch-area"></div>
-                      </div>
-                    </div>
-                    <div class="noUi-origin" style="transform: translate(0%); z-index: 4">
-                      <div class="noUi-handle noUi-handle-upper" data-handle="1" tabindex="0" role="slider"
-                        aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="10.0" aria-valuenow="10.0"
-                        aria-valuetext="10.0">
-                        <div class="noUi-touch-area"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="items-five">
-            <div class="item-search-field">
-              <label for="adv-quality">کیفیت</label>
-              <select id="adv-quality" name="adv-quality">
-                <option value="0">همه</option>
-                <option value="2160p 4k 10bit Bluray x265 SoftSub">
-                  2160p 4k 10bit Bluray x265 SoftSub
-                </option>
-                <option value="1080 Full HD Bluray SoftSub">
-                  1080 Full HD Bluray SoftSub
-                </option>
-                <option value="720p Bluray HardSub">
-                  720p Bluray HardSub
-                </option>
-              </select>
-            </div>
-            <div class="item-search-field">
-              <label for="adv-network">شبکه</label>
-              <select id="adv-network" name="adv-network">
-                <option value="0">همه</option>
-                <option value="AMC">AMC</option>
-                <option value="Apple TV Plus">Apple TV Plus</option>
-                <option value="ABC">ABC</option>
-              </select>
-            </div>
-            <div class="item-search-field">
-              <label for="adv-order">ترتیب</label>
-              <select id="adv-order" name="adv-order">
-                <option value="publish-date">publish-date</option>
-                <option value="imdb-rate">imdb-rate</option>
-                <option value="vote-count">vote-count</option>
-                <option value="critics-rate-movie">critics-rate-movie</option>
-                <option value="comment-count">comment-count</option>
-                <option value="post-views-count">post-views-count</option>
-              </select>
-            </div>
-            <div class="item-search-field"></div>
-          </div>
-          <div class="items-bottom">
-            <div class="item-search-bottom">
-              <div class="item-checkbox" data-valcheck="1">
-                <div class="text-holder">دوبله فارسی</div>
-                <div class="icon-holder">
-                  <svg class="icon icon_check"></svg>
-                </div>
-                <input id="adv-dubbed" class="hidden" type="checkbox" value="1" name="adv-dubbed" />
-              </div>
-              <div class="item-checkbox" data-valcheck="1">
-                <div class="text-holder">سانسور شده</div>
-                <div class="icon-holder">
-                  <svg class="icon icon_check"></svg>
-                </div>
-                <input id="adv-censorship" class="hidden" type="checkbox" value="1" name="adv-censorship" />
-              </div>
-              <div class="item-checkbox" data-valcheck="1">
-                <div class="text-holder">زیرنویس</div>
-                <div class="icon-holder">
-                  <svg class="icon icon_check"></svg>
-                </div>
-                <input id="adv-subtitle" class="hidden" type="checkbox" value="1" name="adv-subtitle" />
-              </div>
-              <div class="item-checkbox" data-valcheck="1">
-                <div class="text-holder">پخش آنلاین</div>
-                <div class="icon-holder">
-                  <svg class="icon icon_check"></svg>
-                </div>
-                <input id="adv-online" class="hidden" type="checkbox" value="1" name="adv-online" />
-              </div>
-            </div>
-            <div class="item-search-bottom">
-              <button type="submit">
-                <svg class="icon icon_search"></svg>
-                جستوجو
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
